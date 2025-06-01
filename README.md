@@ -72,13 +72,13 @@ project-root/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-repo/real-time-exam-monitoring.git
-cd real-time-exam-monitoring
+~ git clone https://github.com/your-repo/real-time-exam-monitoring.git
+~ cd real-time-exam-monitoring
 
 2. Backend Setup
 
-cd server
-npm install
+~ cd server
+~ npm install
 
 Create a .env file inside server/:
 
@@ -88,13 +88,13 @@ JWT_SECRET=your_secret_key
 
 Start the backend server:
 
-node server.js
+~ node server.js
 
 3. Frontend Setup
 
-cd client
-npm install
-npm run dev
+~ cd client
+~ npm install
+~ npm run dev
 
 4. Access the App
 Frontend: http://localhost:5173
@@ -117,14 +117,10 @@ Student	Join exams, get monitored
 
 📌 Notes
 Socket events:
-
-joinExamRoom
-
-suspiciousActivity
-
-suspiciousAlert
-
-leaveExamRoom
+- joinExamRoom
+- suspiciousActivity
+- suspiciousAlert
+- leaveExamRoom
 
 The backend uses WebSocket for push notifications to prevent cheating.
 
