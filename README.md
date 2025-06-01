@@ -71,7 +71,7 @@ project-root/
 
 Clone the repository
 
-```bash
+```
 ~ git clone https://github.com/your-repo/real-time-exam-monitoring.git
 ~ cd real-time-exam-monitoring
 
@@ -100,7 +100,7 @@ Start the backend server:
 Frontend: http://localhost:5173
 Backend API: http://localhost:5000
 
-'''
+```
 
 🧪 Real-Time Monitoring Flow
 When a student joins an exam, they enter a Socket.IO room.
