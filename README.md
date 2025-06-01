@@ -130,10 +130,10 @@ Socket events:
 - suspiciousActivity
 - suspiciousAlert
 - leaveExamRoom
+  
+The backend uses WebSocket for push notifications to prevent cheating.
 
 ---
-
-The backend uses WebSocket for push notifications to prevent cheating.
 
 🤝 Contributing
 Pull requests are welcome. For major changes, please open an issue first.
