@@ -2,6 +2,8 @@
 
 This project is a full-stack web application built to simulate online exam monitoring with real-time suspicious activity detection (e.g., tab switching) using **Socket.IO**, **MongoDB**, and **React**.
 
+---
+
 ## 🚀 Features
 
 - 🔐 **Authentication & Authorization**
@@ -23,6 +25,8 @@ This project is a full-stack web application built to simulate online exam monit
 - 🧠 **Activity Logging**
   - Suspicious activities are saved to MongoDB with timestamp, user ID, and exam ID
 
+---
+
 ## 🛠️ Tech Stack
 
 ### Backend:
@@ -38,6 +42,8 @@ This project is a full-stack web application built to simulate online exam monit
 
 ### Real-time:
 - **Socket.IO** for event-based client-server communication
+
+---
 
 ## 📁 Project Structure
 
@@ -66,6 +72,8 @@ project-root/
 │ │ └── ExamNotifications.js
 │ └── App.js
 └── .env
+
+---
 
 ## 📦 Setup Instructions
 
@@ -102,20 +110,19 @@ Backend API: http://localhost:5000
 
 ```
 
+---
+
 🧪 Real-Time Monitoring Flow
-When a student joins an exam, they enter a Socket.IO room.
-
-If they switch tabs, a "suspiciousActivity" event is emitted.
-
-Server logs it and sends a "suspiciousAlert" to all others in the room.
-
-Examiner sees the alerts live.
+- When a student joins an exam, they enter a Socket.IO room.
+- If they switch tabs, a "suspiciousActivity" event is emitted.
+- Server logs it and sends a "suspiciousAlert" to all others in the room.
+- Examiner sees the alerts live.
 
 🔐 User Roles
-Role	Permissions
-Admin	View all, monitor exams
-Examiner	Start/monitor exams, see alerts
-Student	Join exams, get monitored
+- Role	Permissions
+- Admin	View all, monitor exams
+- Examiner	Start/monitor exams, see alerts
+- Student	Join exams, get monitored
 
 📌 Notes
 Socket events:
@@ -123,6 +130,8 @@ Socket events:
 - suspiciousActivity
 - suspiciousAlert
 - leaveExamRoom
+
+---
 
 The backend uses WebSocket for push notifications to prevent cheating.
 
