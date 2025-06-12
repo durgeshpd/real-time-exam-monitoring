@@ -47,6 +47,7 @@ This project is a full-stack web application built to simulate online exam monit
 
 ## 📁 Project Structure
 
+```css
 project-root/
 ├── server/
 │ ├── src/
@@ -72,6 +73,7 @@ project-root/
 │ │ └── ExamNotifications.js
 │ └── App.js
 └── .env
+```
 
 ---
 
@@ -80,13 +82,13 @@ project-root/
 Clone the repository
 
 ```bash
-~ git clone https://github.com/your-repo/real-time-exam-monitoring.git
-~ cd real-time-exam-monitoring
+git clone https://github.com/your-repo/real-time-exam-monitoring.git
+cd real-time-exam-monitoring
 
 2. Backend Setup
 
-~ cd server
-~ npm install
+cd server
+npm install
 
 Create a .env file inside server/:
 
@@ -96,13 +98,13 @@ JWT_SECRET=your_secret_key
 
 Start the backend server:
 
-~ node server.js
+node server.js
 
 3. Frontend Setup
 
-~ cd client
-~ npm install
-~ npm run dev
+cd client
+npm install
+npm run dev
 
 4. Access the App
 Frontend: http://localhost:5173
@@ -135,5 +137,6 @@ The backend uses WebSocket for push notifications to prevent cheating.
 
 ---
 
-🤝 Contributing
-Pull requests are welcome. For major changes, please open an issue first.
+📬 Contact
+
+Feel free to open an issue or submit a pull request if you have ideas or improvements.
