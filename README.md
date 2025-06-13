@@ -82,7 +82,7 @@ project-root/
 Clone the repository
 
 ```bash
-git clone https://github.com/your-repo/real-time-exam-monitoring.git
+git clone https://github.com/durgeshpd/real-time-exam-monitoring.git
 cd real-time-exam-monitoring
 
 2. Backend Setup
